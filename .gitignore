@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env*.local
+!.env.example
+
+# Vercel
+.vercel/
+
+# PWA build artifacts (regenerated on build)
+public/sw.js
+public/sw.js.map
+public/workbox-*.js
+public/workbox-*.js.map
+public/fallback-*.js
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+.idea/
+.vscode/
+.cursor/
+
+# Optional local assets (keep public/logo.png committed)
+assets/
+
+# Certificates
+*.pem
