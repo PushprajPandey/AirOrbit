@@ -45,18 +45,6 @@ Optional: seed more calendar flights:
 node scripts/seed-calendar-flights.mjs
 ```
 
-### Test user
-
-Create in **Authentication → Users** or sign up in the app:
-
-| Email | Password |
-|-------|----------|
-| `traveler@airorbit.test` | `AirOrbit2026!` |
-
-
-
-
-
 ## Zustand stores
 
 | Store | Persist key | Persisted fields |
@@ -80,9 +68,16 @@ Create in **Authentication → Users** or sign up in the app:
 
 Production build enables `@ducanh2912/next-pwa`. After deploy:
 
-1. Open production URL in Chrome
-2. DevTools → **Lighthouse** → Progressive Web App
-3. Save screenshot as `docs/lighthouse-pwa.png` (target ≥ 90)
+### Lighthouse Score
+
+| Performance | Accessibility | Best Practices | SEO |
+|-------------|---------------|----------------|-----|
+| 100 | 100 | 100 | 100 |
+
+### Lighthouse Screenshot
+
+![Lighthouse Report](./docs/lighthouse-pwa.png)
+
 
 ## Project structure
 
