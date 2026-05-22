@@ -15,9 +15,7 @@ Responsive flight search, interactive seat maps, booking, reschedule/cancel, and
 
 ## Deployment
 
-| Item | URL |
-|------|-----|
-| **Production (Vercel)** |  `[https://air-orbit.vercel.app](https://air-orbit.vercel.app)`_ |
+- **Production (Vercel):** https://air-orbit.vercel.app
 
 
 ## Quick start (local)
